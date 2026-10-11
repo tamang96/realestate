@@ -1,0 +1,12 @@
+{
+  "name": "realestate",
+  "version": "0.1.0",
+  "description": "NTREIS MLS connection via the RESO Web API",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "bin": { "mls": "bin/mls.js" },
+  "scripts": {
+    "mls": "node --env-file-if-exists=.env bin/mls.js",
+    "test": "node --test"
+  }
+}
